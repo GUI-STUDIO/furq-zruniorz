@@ -1,9 +1,13 @@
 name: keep-render-awake
+
 on:
   schedule:
-    - cron: "*/10 * * * *" # every 10 min
+    - cron: "*/10 * * * *"   # every 10 minutes
+  workflow_dispatch:          # lets you run it manually
+
 jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -sSf https://stream-it-api.onrender.com > /dev/null
+      - name: Ping Render App
+        run: curl -sSf https://stream-it-api.onrender.com/ping > /dev/null
