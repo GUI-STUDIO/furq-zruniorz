@@ -1,0 +1,115 @@
+
+node_modules
+/.vscode
+.vscode
+vscode
+/.pnp
+.pnp.js
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+/app
+/.cache
+
+**/*.trace
+**/*.zip
+**/*.tar.gz
+**/*.tgz
+**/*.log
+package-lock.json
+**/*.bun
+
+# testing
+/coverage
+/foo
+foo
+foo.*
+*.foo.*
+*.foo
+*.rest
+
+.txt
+# *.txt
+
+/test
+test
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+.env.example
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# DB
+*.db
+*.db.*
+*.pdb
+*.pdb*
+
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# next.js
+/.next/
+/out/
+
+# misc
+/.astro
+/dummy
+*.pem
+temp
+/temp
+.prod
+.http
+.movie
